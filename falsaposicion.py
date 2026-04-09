@@ -2,14 +2,7 @@ def fp_method(func, a, b, error_accept):
 
 
     
-    # Método de la falsa posición para encontrar raíces de una función dada.
-    # Parámetros:
-    # func: La función de la cual se desea encontrar la raíz, dada como una cadena.
-    # a: El valor inicial de la variable independiente.
-    # b: El valor final de la variable independiente.
-    # error_accept: El error aceptado.
-    # Retorno:
-      
+  
    
     def f(x):
         return eval(func)
